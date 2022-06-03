@@ -22,6 +22,7 @@ class SolutionTest {
 
         Map<Integer, Double> res = new HashMap<>();
         int total = stages.length;
+        System.out.println("total = "+ total);
         for(int i=1; i<N+1; i++) {
             if(total==0) {
                 res.put(i, (double)0);
