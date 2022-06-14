@@ -5,7 +5,7 @@ public class Code06 {
     //최대 공약수
     public static void main(String[] args) {
         int gcd = gcd(10, 3);
-        System.out.println(gcd);
+        System.out.println("gcd : " + gcd);
     }
 
     private static int gcd(int m, int n) {
