@@ -99,11 +99,8 @@ public static int binarySearch(String[] items, String target, int begin, int end
         return binarySearch(items, target, begin, middle-1);
     } else {
         return binarySearch(items, target, begin, middle+1, end);
-    } 
-        
-        
     }
-    
+  }
 }
 
 ```
